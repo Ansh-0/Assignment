@@ -29,6 +29,6 @@ document
 				closeForm();
 			})
 			.catch(function (error) {
-				console.log('error');
+				closeForm();
 			});
 	});
